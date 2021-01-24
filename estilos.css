@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    background-color: yellow;
+    margin-top: 0;
+    padding: 15px;
+}
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0.6895133053221288) 0%, rgba(50,220,255,1) 100%);
+    
+}
+.contenedorPrincipal{
+    display: flex;/*Uso display flex para hacer flexibles las cajas que estan dentro del div contenedorPrincipal*/
+    flex-direction: column;/*Uso esta propiedad para orientar la cajas en columnas  */
+    width: 80%;
+    margin: auto;
+    height:100vh; /* propiedad usada para poner el 100% de la altura al contenedor */
+   
+}
+.textoPrincipal{
+    background-color: skyblue;
+    flex-grow: 1;/*Con esta propiedad asignamos a este div que ocupe toda la altura que nos da la pantalla es decir ocupara el resto de la pantalla con los limites que den el titulo y el footer */
+    text-align: center;
+    padding: 10px;
+    
+}
+.textoPrincipal p{
+    padding: 10px; 
+}
+
+footer{
+    padding: 15px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
